@@ -96,7 +96,7 @@
             plt.plot([xc[i], yc[i]], [xb[i], yb[i]])
             # plt.hold(True)
             plt.grid(True)
-
+ 
         plt.plot(xc, xb)
         # plt.hold(True)
         plt.plot(yc, yb)
@@ -165,6 +165,7 @@
             V[i] = M[i] - L[i]
 
         fra = (F*ycf - L[stages-1]*xcl[stages-1])/(F*ycf)
+        display(fra, target="right_output)
 
         for i in range(stages):
             plt.plot([xcl[i], ycv[i]], [xbl[i], ybv[i]], 'go-')
