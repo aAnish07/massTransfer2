@@ -34,9 +34,41 @@ main {
     justify-content: center;
 }
 
+th, td {
+    padding: 5px 25px 10px 25px;
+    background-color: #1B1B1E;
+}
+
+table {
+    text-align: center;
+    background-color: #40798C;
+    margin-bottom: 30px;
+}
+
 #mthd {
     padding: 8px;
     border-radius: 6px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 25px;
+}
+
+.methods {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 80vw;
+    height: auto;
+    margin: 5vh;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #40798C;
+}
+
+input {
+    outline: none;
+    border-width: 0px;
+    border-radius: 6px;
+    border-style: hidden;
+    padding: 5px;
+    margin: 5px;
 }
